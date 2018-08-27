@@ -136,7 +136,7 @@ public class NumberGuessingGame
 						}
 						System.out.println("Ok. I picked a number between 1 and "+difficultyLevel+", you have "+counter+" guesses.");
 						
-						while(counter>=1)						
+							do				
 							{
 						int userGuess = userInput.nextInt();
 						if(userGuess==randomNumber)
@@ -183,6 +183,7 @@ public class NumberGuessingGame
 							}
 						System.out.println("You have "+counter+" guesses left.");
 							}
+						while(counter>=1);
 			
 							
 					
